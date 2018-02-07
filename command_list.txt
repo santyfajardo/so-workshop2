@@ -1,0 +1,16 @@
+    1  ip a
+    2  ssh root@192.168.104.46
+    3  0
+    4  exit
+    5  ls
+    6  cd /tmp
+    7  ls
+    8  history > command-list.txt 
+    9  so-workshop2/
+   10  history > command-list.txt 
+   11  cd workshop2
+   12  vi command-list.txt 
+   13  cd /tmp
+   14  ls
+   15  cd so-workshop2/
+   16  history > command_list.txt
