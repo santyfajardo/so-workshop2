@@ -38,6 +38,9 @@
    38  vi syscall_03.c
    39  make all
    40  ./syscall_03.o 
+   41  strace ./syscall_01.o
+   42  strace ./syscall_02.o
+   43  strace ./syscall_03.o
    41  ls
    42  ./syscall_01.o
    43  ls
