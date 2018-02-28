@@ -10,54 +10,68 @@
    10  history > command-list.txt 
    11  cd workshop2
    12  vi command-list.txt 
-   13  history
+   13  cd /tmp
    14  ls
-   15  cd /tmp
+   15  cd so-workshop2/
    16  ls
-   17  cd so-workshop2/
-   18  ls
-   19  cd A00328044/
-   20  ls
-   21  rm command_list.txt 
-   22  rm message_1.txt 
-   23  git status
-   24  history
-   25  history -d 24
-   26  history
-   27  history -d 24
-   28  vi syscall_01.c
-   29  ls
-   30  vi syscall_02.c
-   31  vi syscall_03.c
-   32  ls
-   33  clear
-   34  history
-   35  clear
-   36  vi MakeFile
-   37  ls
-   38  history > command_list.txt
-   39  ls
-   40  vi command_list.txt 
-   41  clear
-   42  git commit -m "Insert base del trabajo"
-   43  git add MakeFile 
-   44  git add syscall_01.c 
-   45  git add syscall_02.c 
-   46  git add syscall_03.c 
-   47  git commit -m "Insert archivos base"
-   48  git branch
-   49  git push -u origin santy-fajardo/workshop2
-   50  git remote add origin https://github.com/santyfajardo/so-workshop2.git
-   51  git push -u origin master
-   52  git push
-   53  git config
-   54  git push origin master
-   55  git config --global
-   56  git push
-   57  git config --global push.default matching
-   58  git push -u origin master
-   59  vi command_list.txt 
-   60  clear
-   61  history
-   62  clear
-   63  history > command_list.txt
+   17  cd A
+   18  cd A00328044/
+   19  ls
+   20  vi syscall_01.c 
+   21  clear
+   22  vi command_list.txt 
+   23  ls
+   24  vi syscall_01.c 
+   25  clear
+   26  ls
+   27  vi MakeFile 
+   28  ls
+   29  vi command_list.txt 
+   30  clear
+   31  vi syscall_01.c 
+   32  vi syscall_02.c 
+   33  vi syscall_01.c 
+   34  vi syscall_02.c 
+   35  vi syscall_03.c 
+   36  clear
+   37  vi syscall_01.c 
+   38  vi syscall_02.c 
+   39  vi syscall_03
+   40  vi syscall_03.c 
+   41  vi syscall_01.c 
+   42  clear
+   43  make all
+   44  ls
+   45  vi MakeFile 
+   46  clear
+   47  ls
+   48  mv MakeFile Makefile
+   49  ls
+   50  make all
+   51  vi syscall_01.c 
+   52  make all
+   53  vi syscall_01.c 
+   54  make all
+   55  vi syscall_03.c 
+   56  make all
+   57  ./syscall_01.o 
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd A00328044/
+   62  ls
+   63  vi syscall_01.c
+   64  cd ..
+   65  ls
+   66  cd so-workshop2/
+   67  cd A00328044/
+   68  ls
+   69  ./syscall_02.o 
+   70  vi Makefile 
+   71  vi syscall_01.c
+   72  make all
+   73  ./syscall_01.o 
+   74  ls
+   75  ./syscall_02.o 
+   76  git status
+   77  history > command_list.txt 
