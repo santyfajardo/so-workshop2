@@ -1,16 +1,63 @@
- 1  ip a
- 2  ssh root@192.168.104.46
- 3  0
- 4  exit
- 5  ls
- 6  cd /tmp
- 7  ls
- 8  history > command-list.txt 
- 9  so-workshop2/
- 10  history > command-list.txt 
- 11  cd workshop2
- 12  vi command-list.txt 
- 13  cd /tmp
- 14  ls
- 15  cd so-workshop2/
- 16 history > command_list.txt
+    1  ip a
+    2  ssh root@192.168.104.46
+    3  0
+    4  exit
+    5  ls
+    6  cd /tmp
+    7  ls
+    8  history > command-list.txt 
+    9  so-workshop2/
+   10  history > command-list.txt 
+   11  cd workshop2
+   12  vi command-list.txt 
+   13  history
+   14  ls
+   15  cd /tmp
+   16  ls
+   17  cd so-workshop2/
+   18  ls
+   19  cd A00328044/
+   20  ls
+   21  rm command_list.txt 
+   22  rm message_1.txt 
+   23  git status
+   24  history
+   25  history -d 24
+   26  history
+   27  history -d 24
+   28  vi syscall_01.c
+   29  ls
+   30  vi syscall_02.c
+   31  vi syscall_03.c
+   32  ls
+   33  clear
+   34  history
+   35  clear
+   36  vi MakeFile
+   37  ls
+   38  history > command_list.txt
+   39  ls
+   40  vi command_list.txt 
+   41  clear
+   42  git commit -m "Insert base del trabajo"
+   43  git add MakeFile 
+   44  git add syscall_01.c 
+   45  git add syscall_02.c 
+   46  git add syscall_03.c 
+   47  git commit -m "Insert archivos base"
+   48  git branch
+   49  git push -u origin santy-fajardo/workshop2
+   50  git remote add origin https://github.com/santyfajardo/so-workshop2.git
+   51  git push -u origin master
+   52  git push
+   53  git config
+   54  git push origin master
+   55  git config --global
+   56  git push
+   57  git config --global push.default matching
+   58  git push -u origin master
+   59  vi command_list.txt 
+   60  clear
+   61  history
+   62  clear
+   63  history > command_list.txt
