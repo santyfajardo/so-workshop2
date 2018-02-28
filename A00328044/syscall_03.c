@@ -4,7 +4,7 @@
 int main()
 {
 printf("Hola borraremos el archivo \n");
-rmdir("/root/so-worshop2/A00328044/SistemasOperativos");
+rmdir("/tmp/so-workshop2/A00328044/SistemasOperativos");
 printf("Se borro \n");
 
 }
